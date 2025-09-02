@@ -29,9 +29,12 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import ikea from "./company/ikea.png";
+import loughborough from "./company/loughborough.png";
 
 import quantangled from "./Quantangled.png";
 import spaceescape from "./SpaceEscape.png";
+import gnomegame from "./AGnomeGame.png"
+import habitTracker from "./habitTracker.jpg"
 import weatherapp from "./WeatherApp.jpg";
 import chimneysweep from "./ChimneySweep.png";
 import david from "./David.png";
@@ -63,6 +66,7 @@ export {
   starbucks,
   tesla,
   ikea,
+  loughborough,
   quantangled,
   spaceescape,
   weatherapp,
@@ -71,4 +75,6 @@ export {
   java,
   Csharp,
   david,
+  gnomegame,
+  habitTracker,
 };

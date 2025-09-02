@@ -13,6 +13,7 @@ import {
     sql,
     git,
     ikea,
+    loughborough,
     quantangled,
     spaceescape,
     weatherapp,
@@ -21,7 +22,9 @@ import {
     python,
     java,
     Csharp,
-    david
+    david,
+    gnomegame,
+    habitTracker
   } from "../assets";
   
   export const navLinks = [
@@ -130,6 +133,19 @@ import {
         "Team Collaboration: Strong collaborative experience, ensuring smooth workflow and operational success resulting in an increase in productivity.",
       ],
     },
+    {
+      title: "Loughborough University",
+      company_name: "BSc Computer Science and AI | 2:1",
+      icon: loughborough,
+      iconBg: "#383E56",
+      date: "September 2022 - June 2025",
+      points: [
+        "Strong academic foundation in software development, AI, and data science.",
+        "Led a final-year project focused on real-time sign language recognition using TensorFlow.js, React, Node.js and Typescript, aimed at supporting hearing-impaired users through assistive technology.",
+        "Worked on multiple personal and academic projects, demonstrating strong problem-solving skills, teamwork, and a focus on accessible technology.",
+        "Prepared for industry roles through consistent development of technical and communication skills, applying them to real-world challenges in AI and software engineering.",
+      ],
+    },
   ];
   
   const testimonials = [
@@ -166,6 +182,23 @@ import {
       source_code_link: "https://essweeps.co.uk",
     },
     {
+      name: "Habit Tracker",
+      description:
+        "React Native app that allows users to track habits on their phone.",
+      tags: [
+        {
+          name: "react-native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+      ],
+      image: habitTracker,
+      source_code_link: "https://github.com/Robert151003/HabitTracking",
+    },
+    {
       name: "Weather App",
       description:
         "Web application developed for android devices. Shows key weather information in the user's location and allows them to search different locations.",
@@ -183,9 +216,26 @@ import {
       source_code_link: "https://github.com/Robert151003/WeatherApp",
     },
     {
+      name: "A Gnome G(n)ame",
+      description:
+        "A puzzle game developed in Unity using C# in a group of 10 for the GMTK Game Jam 2025. The player must navigate through multiple obstacles to reach the goal.",
+      tags: [
+        {
+          name: "C-Sharp",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Unity",
+          color: "green-text-gradient",
+        },
+      ],
+      image: gnomegame,
+      source_code_link: "https://github.com/Robert151003/GMTK2025",
+    },
+    {
       name: "Space Escape",
       description:
-        "A puzzle game developed in Unity using C#. The player must navigate through a maze of obstacles to reach the spaceship.",
+        "A puzzle game developed in Unity using C# in a group of 8 for the GMTK Game Jam 2024. The player must navigate through a maze of obstacles to reach the spaceship.",
       tags: [
         {
           name: "C-Sharp",

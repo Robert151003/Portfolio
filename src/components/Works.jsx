@@ -40,12 +40,12 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant} className='w-full flex-col'>
+      <motion.div variants={textVariant} className='max-w-4xl mx-auto'>
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
-      <div className='w-full flex'>
+      <div className='max-w-4xl mx-auto'>
         <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
           The following projects showcase my skills and experience through practical development of various applications.
           Each project is briefly described with a link to the code repositories on GitHub.
@@ -53,7 +53,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-7 justify-center'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} {...project} index={index}/>
         ))}
@@ -62,4 +62,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "work");
