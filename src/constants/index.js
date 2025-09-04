@@ -24,7 +24,8 @@ import {
     Csharp,
     david,
     gnomegame,
-    habitTracker
+    habitTracker,
+    dailyplates,
   } from "../assets";
   
   export const navLinks = [
@@ -180,6 +181,27 @@ import {
       ],
       image: chimneysweep,
       source_code_link: "https://essweeps.co.uk",
+    },
+    {
+      name: "Daily Plates",
+      description:
+        "Static Webpage that allows users to find and search for recipes.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dailyplates,
+      source_code_link: "https://dailyplates.co.uk",
     },
     {
       name: "Habit Tracker",

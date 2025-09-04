@@ -37,6 +37,7 @@ import gnomegame from "./AGnomeGame.png"
 import habitTracker from "./habitTracker.jpg"
 import weatherapp from "./WeatherApp.jpg";
 import chimneysweep from "./ChimneySweep.png";
+import dailyplates from "./DailyPlates.png";
 import david from "./David.png";
 
 export {
@@ -77,4 +78,5 @@ export {
   david,
   gnomegame,
   habitTracker,
+  dailyplates,
 };
